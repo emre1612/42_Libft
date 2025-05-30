@@ -6,11 +6,9 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 22:17:32 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/24 22:19:23 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/30 21:15:50 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_toupper(int x)
 {

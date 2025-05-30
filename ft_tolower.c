@@ -6,11 +6,9 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 22:31:32 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/24 22:35:40 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/30 21:15:45 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int     ft_tolower(int x)
 {

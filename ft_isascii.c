@@ -6,11 +6,9 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/23 19:11:33 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/23 22:40:01 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/30 21:13:36 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int  ft_isascii(int a)
 {

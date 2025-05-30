@@ -6,11 +6,11 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 23:42:35 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/27 23:42:40 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/30 21:14:35 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

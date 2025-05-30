@@ -6,12 +6,9 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/22 00:35:39 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/22 00:40:12 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/30 21:13:19 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-
-#include "libft.h"
 
 int  ft_isalnum(int v)
 {

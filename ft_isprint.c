@@ -6,11 +6,9 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/25 20:19:43 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/25 20:20:02 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/30 21:13:47 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int ip)
 {
