@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/25 19:35:33 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/25 19:35:57 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/18 23:16:37 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,15 @@ int	ft_atoi(const char *str)
 	}
 	return (result * a);
 }
+/*
+#include <stdio.h>
+
+int	main()
+{
+	printf("%d\n", ft_atoi("-42"));
+	printf("%d\n", ft_atoi("42"));
+	printf("%d\n", ft_atoi("2147483648"));
+	printf("%d\n", ft_atoi("-2147483649"));
+
+}
+	*/

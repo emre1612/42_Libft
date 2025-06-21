@@ -6,15 +6,20 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/22 00:35:39 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 21:13:19 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 01:34:58 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int  ft_isalnum(int v)
+int	ft_isalnum(int v)
 {
-    if((v >= 'a' && v <= 'z') || (v >= 'A' && v <= 'Z'))
-        return(1);
-    else if(v >= '0' && v <= '9')
-        return(1);
-    return(0);
+	if ((v >= 'a' && v <= 'z') || (v >= 'A' && v <= 'Z'))
+		return (1);
+	else if (v >= '0' && v <= '9')
+		return (1);
+	return (0);
 }
+// #include <stdio.h>
+// int	main()
+// {
+// 	printf("%d", ft_isalnum('f'));
+// }

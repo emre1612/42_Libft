@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 21:51:34 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/06/19 22:24:40 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 02:18:33 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,28 +84,28 @@ char	**ft_split(char const *s, char c)
 	ptr[++x] = NULL;
 	return (ptr);
 }
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(void)
-{
-	char	**result;
-	int		i;
+// int	main(void)
+// {
+// 	char	**result;
+// 	int		i;
 
-	result = ft_split("  merhaba 42  okul  ", ' ');
-	if (!result)
-		return (1);
-	i = 0;
-	while (result[i])
-	{
-		printf("%s\n",result[i]);
-		i++;
-	}
-	i = 0;
-	while (result[i])
-	{
-		free(result[i]);
-		i++;
-	}
-	free(result);
-	return (0);
-}
+// 	result = ft_split("  merhaba 42  okul  ", ' ');
+// 	if (!result)
+// 		return (1);
+// 	i = 0;
+// 	while (result[i])
+// 	{
+// 		printf("%s\n",result[i]);
+// 		i++;
+// 	}
+// 	i = 0;
+// 	while (result[i])
+// 	{
+// 		free(result[i]);
+// 		i++;
+// 	}
+// 	free(result);
+// 	return (0);
+// }

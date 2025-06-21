@@ -6,13 +6,19 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 22:31:32 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 21:15:45 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 03:28:10 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_tolower(int x)
+int	ft_tolower(int x)
 {
-        if(x >= 'A' && x <= 'Z')
-                return(x += 32);
-        return(x);
+	if (x >= 'A' && x <= 'Z')
+		return (x += 32);
+	return (x);
 }
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	printf("%d\n", ft_tolower('A'));
+// }

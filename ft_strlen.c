@@ -6,20 +6,27 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/22 00:41:02 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/22 00:57:44 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 03:12:28 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while(s[i])
-    {
-        i++;
-    }
-    return(i);
+	i = 0;
+	while (s[i])
+	{
+		i++;
+	}
+	return (i);
 }
+// #include <stdio.h>
+
+// int	main()
+// {
+// 	char	s[] = "fatma";
+// 	printf("%zu", ft_strlen(s));
+// }

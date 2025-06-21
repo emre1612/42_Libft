@@ -6,13 +6,13 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/23 19:11:33 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 21:13:36 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/31 22:54:57 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int  ft_isascii(int a)
+int	ft_isascii(int a)
 {
-    if(a >= 0 && a <= 127)
-        return(1);
-    return(0);
+	if (a >= 0 && a <= 127)
+		return (1);
+	return (0);
 }

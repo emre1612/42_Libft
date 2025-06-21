@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 23:10:20 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/24 23:38:41 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 01:38:30 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,8 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%s", (char *)ft_memchr("fatma", 'm', 5));
+// }

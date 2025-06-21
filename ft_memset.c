@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 20:50:58 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 22:56:17 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 01:46:42 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,11 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+// #include <stdio.h>
+
+// int	main()
+// {
+// 	unsigned char	b[] = "emrecan";
+// 	ft_memset(b, 'a', 4);
+// 	printf("%s", b);
+// }

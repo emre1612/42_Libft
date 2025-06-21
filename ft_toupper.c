@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 22:17:32 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 21:15:50 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 03:27:46 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,9 @@ int	ft_toupper(int x)
 		return (x -= 32);
 	return (x);
 }
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	printf("%d\n", ft_toupper('c'));
+// }

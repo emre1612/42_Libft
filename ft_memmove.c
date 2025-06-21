@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 21:36:20 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/24 21:54:33 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 01:45:16 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,12 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
+// #include <stdio.h>
+
+// int	main()
+// {
+// 	unsigned char	src[] = "isg";
+//     const char dst[] = "sorunu";
+// 	ft_memmove(src + 3, src,2);
+// 	printf("%s", dst);
+// }

@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 22:16:15 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/24 22:16:17 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 02:58:48 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,13 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		*dest = '\0';
 	return (ssize + i);
 }
+// #include <stdio.h>
+
+// int    main()
+// {
+//   char  dest[20] = "emrecan";
+//   char  src[10] = " kaymak";
+  
+//   printf("%ld\n", ft_strlcat(dest, src, 15));
+//   printf("%s\n", dest);
+// }

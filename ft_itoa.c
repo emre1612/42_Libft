@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 22:28:07 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/27 22:28:14 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/19 00:37:51 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 
 static int	ft_numlen(int n)
 {
-	int	len = 0;
+	int	len;
 
+	len = 0;
 	if (n <= 0)
 		len = 1;
 	while (n)
@@ -52,3 +53,11 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
+/*
+#include <stdio.h>
+
+int main()
+{
+	printf("%d", *ft_itoa("98"));
+}
+	*/

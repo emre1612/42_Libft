@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/25 19:34:55 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/25 19:34:58 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 03:21:22 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,9 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+// #include <stdio.h>
+
+// int	main()
+// {
+// 	printf("%s", ft_strnstr("emrecan kaymak", "can", 20));
+// }

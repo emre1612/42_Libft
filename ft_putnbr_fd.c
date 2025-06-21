@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 23:42:35 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 21:14:35 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 02:03:00 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,10 @@ void	ft_putnbr_fd(int n, int fd)
 {
 	char	c;
 
-	if (n == -2147483648) // INT_MIN özel durumu
+	if (n == -2147483648)
 	{
 		write(fd, "-2147483648", 11);
-		return;
+		return ;
 	}
 	if (n < 0)
 	{
@@ -31,3 +31,12 @@ void	ft_putnbr_fd(int n, int fd)
 	c = '0' + (n % 10);
 	write(fd, &c, 1);
 }
+// #include "fcntl.h"
+// #include <stdio.h>
+
+// int main(int argc, char const *argv[])
+// {
+// 	int fd = open("txtforexample.txt",O_CREAT | O_RDWR | O_APPEND, 0777);
+// 	ft_putnbr_fd(-123423 ,fd);
+// 	return 0;
+// }

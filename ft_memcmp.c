@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/24 23:39:46 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/24 23:46:14 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 01:40:08 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,9 @@ int	ft_memcmp(const void *s1, const void *s2, size_t size)
 		return (0);
 	return (str1[i] - str2[i]);
 }
+// #include <stdio.h>
+
+// int	main()
+// {
+// 	printf("%d", ft_memcmp("ali", "laviva", '5'));
+// }

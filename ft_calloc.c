@@ -6,7 +6,7 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/25 19:37:25 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/25 19:37:28 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/06/21 01:33:56 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,15 @@ void	*ft_calloc(size_t c, size_t s)
 	ft_bzero(ptr, s * c);
 	return (ptr);
 }
+// #include <stdio.h> 
+// int main(void)
+// {
+//   char    *a;
+//   a = ft_calloc(5, sizeof(char));
+//   int i = 0;
+//   while(i < 5)
+//   {
+//      printf("%d", a[i]);
+//      i++;
+//   }
+// }

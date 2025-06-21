@@ -6,13 +6,13 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/22 00:33:16 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 21:13:42 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/31 22:57:07 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int a)
+int	ft_isdigit(int a)
 {
-    if(a >= '0' && a <= '9')
-        return(1);
-    return(0);
+	if (a >= '0' && a <= '9')
+		return (1);
+	return (0);
 }

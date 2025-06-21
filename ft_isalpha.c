@@ -6,14 +6,13 @@
 /*   By: emkaymak <emkaymak@student.42.kocaeli.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/22 00:16:20 by emkaymak          #+#    #+#             */
-/*   Updated: 2025/05/30 21:13:30 by emkaymak         ###   ########.fr       */
+/*   Updated: 2025/05/31 22:52:16 by emkaymak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalpha(char a)
+int	ft_isalpha(char a)
 {
-    if((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
-        return(1);
-    return(0); 
+	if ((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
+		return (1);
+	return (0);
 }
-
