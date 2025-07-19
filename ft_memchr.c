@@ -28,5 +28,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 // #include <stdio.h>
 // int	main(void)
 // {
-// 	printf("%s", (char *)ft_memchr("fatma", 'm', 5));
+// 	printf("%s", (char *)ft_memchr("emre", 'm', 4));
 // }
